@@ -1,0 +1,99 @@
+name: autosense
+description: A new Flutter project.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  # A
+  # B
+  # C
+  cupertino_icons: ^1.0.5
+  # D
+  dio: ^4.0.6
+  # E
+  equatable: ^2.0.0
+  # F
+  flutter_bloc: ^8.0.0
+  flutter_config: ^2.0.0
+  flutter_dotenv: ^5.1.0
+  # G
+  get_it: ^7.2.0
+  google_fonts: ^4.0.3
+  google_maps_flutter: ^2.0.0
+  google_places_flutter: ^2.0.6
+  # H
+  http: ^0.13.5
+  hydrated_bloc: ^9.0.0
+  # I
+  intl: ^0.17.0
+  injectable: ^1.5.4
+  internet_connection_checker_plus: ^1.0.1
+  # J
+  json_serializable: ^6.6.1
+  # K
+  # L
+  # M
+  material_dialog: ^1.0.0-nullsafety.1
+  # N
+  # O
+  # P
+  path_provider: ^2.0.14
+  permission_handler: ^10.2.0
+  permission_handler_web: ^0.0.2
+  pretty_dio_logger: ^1.2.0-beta-1
+  # Q
+  # R
+  # S
+  shared_preferences: ^2.1.0
+  shimmer: ^2.0.0
+  # T
+  # U
+  universal_platform: ^1.0.0+1
+  url_strategy: ^0.2.0
+  uuid: ^3.0.6
+  # V
+  validators: ^3.0.0
+  # W
+  # X
+  # Y
+  # Z
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+  injectable_generator: ^1.5.4
+  build_runner: ^2.3.0
+  test:
+  bloc_test: ^9.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/svgs/
+    - .env
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
